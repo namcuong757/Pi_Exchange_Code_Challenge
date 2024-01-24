@@ -10,7 +10,7 @@ import { catchError } from 'rxjs/operators';
 export class GiphySearchService {
   constructor(private httpClient: HttpClient, private giphyService: GiphyService) {}
 
-    search_giphy()
+    search_giphy() : Observable<any>
     {
       return this.httpClient.get(`https://api.giphy.com/v1/gifs/trending?api_key=%${this.giphyService.api_key}&limit=50`);
     }
