@@ -1,3 +1,8 @@
+##Answering question
+I dedicated approximately two hours to the completion of this project. I encountered some challenges particularly in the app module, prompting me to conduct further research to overcome these obstacles. Allocating additional time to this endeavor would enable me to incorporate features such as authentication for login and logout, the addition of a 'likes' button, a comments section, and the implementation of a personal profile where users can access activity logs and personal information.
+##
+
+
 # CuongGiphyApp2
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.
