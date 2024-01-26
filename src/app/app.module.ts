@@ -5,10 +5,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GiphyDisplayComponent } from './giphy-display/giphy-display.component';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { HeaderComponent } from './header/header/header.component';
+import { SearchGifComponent } from './search/search-gif/search-gif.component';
+import { GifDetailComponent } from './gif-detail/gif-detail/gif-detail.component';
+import { HomepageComponent } from './homepage/homepage.component';
 @NgModule({
   declarations: [
     AppComponent,
-    GiphyDisplayComponent
+    GiphyDisplayComponent,
+    HeaderComponent,
+    SearchGifComponent,
+    GifDetailComponent,
+    HomepageComponent
   ],
   imports: [
     BrowserModule,
@@ -16,11 +24,6 @@ import { HttpClientModule, HttpClient } from '@angular/common/http';
     HttpClientModule
   ],
   providers: [
-    {
-      provide: HttpClient,
-      useClass: HttpClient,
-      deps: [],
-    },
     provideClientHydration()
   ],
   bootstrap: [AppComponent]

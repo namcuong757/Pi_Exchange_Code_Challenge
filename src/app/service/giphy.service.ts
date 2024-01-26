@@ -4,6 +4,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class GiphyService {
-  api_key: string = 'Lx92S7VHv52GjvhBBS4yHzgrz2IZlHCx';
+  // store API key
+  readonly api_key: string = 'Lx92S7VHv52GjvhBBS4yHzgrz2IZlHCx';
   constructor() {}
 }

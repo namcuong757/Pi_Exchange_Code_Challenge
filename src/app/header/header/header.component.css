@@ -1,0 +1,11 @@
+nav{
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: aliceblue;
+    font-size: 35px;
+    font-weight: bold;
+}
+nav p{
+    font-size: 20px;
+}
